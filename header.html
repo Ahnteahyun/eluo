@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="UTF-8">
+	<title>Title </title>
+	<link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <script src="http://code.jquery.com/jquery-1.11.2.js"></script>
+    <script src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/common.js"></script>
+</head>
+<body>
+    <header class="pageHeader">
+       <div class="slickWrap">
+           <div><img src="./images/main_title_5.png" alt=""></div>
+           <div><img src="./images/main_title_2.png" alt=""></div>
+           <div><img src="./images/main_title_3.png" alt=""></div>
+           <div><img src="./images/main_title_4.png" alt=""></div>
+           
+<!--
+            <div class="p_sec">
+                <span><img src="./images/bg_main_5.jpg"></span>
+                <p><img src="./images/main_title_2.png"></p>
+            </div>
+            <div class="p_sec">
+                <span><img src="./images/bg_main_5.jpg"></span>
+                <p><img src="./images/main_title_2.png"></p>
+            </div>
+            <div class="p_sec">
+                <span><img src="./images/bg_main_5.jpg"></span>
+                <p><img src="./images/main_title_2.png"></p>
+            </div>
+            <div class="p_sec">
+                <span><img src="./images/bg_main_5.jpg"></span>
+                <p><img src="./images/main_title_2.png"></p>
+            </div>
+-->
+        </div>
+    </header>
+     
+    <script>
+    $(".slickWrap").slick({
+        infinite: true,
+        autoplay:true,
+        autoplaySpeed:2000,
+        slidesToShow:1,
+        slidesToScroll:1,
+        arrows:true,
+        dots:true
+      });
+    </script>
+</body>
+</html>

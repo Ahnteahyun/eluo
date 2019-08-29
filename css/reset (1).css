@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+body, h1,h2,h3,h4,h5,h6, dl,dt,dd,ol,ul,li,p,
+form, fieldset, legend, select, input, button, option {
+    margin:0; padding:0;
+}
+li { list-style:none;}
+button, input {border:none; background:transparent}
+fieldset{border:0}
+legend{
+    position: absolute;
+    left:-10000em;
+    top:-10000em;
+}
+
+a { text-decoration:none; color:inherit;}
+
+textarea::placeholder, 
+input::placeholder {
+    font-size:0.87rem;
+    font-style:italic;
+    color:#999;
+}
+
+.clearfix:after {
+    content:'';
+    display:block; /* table */
+    clear:both;
+}
+
+.fly {
+    position:absolute;
+    left:-10000em;
+    top:-10000em;
+}
+

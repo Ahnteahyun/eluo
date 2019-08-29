@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="UTF-8">
+   <style>
+       .wrap li { color:gray;  }
+       .wrap li.on { color:red; }
+    </style>
+    <script src="http://code.jquery.com/jquery-1.11.2.js"></script>
+    <script>
+        $(function() {
+            var $item = $('.wrap').find('li'),
+                $link = $('.link').find('a');
+           
+            
+            $link.on('click',function() { 
+                var $name = $(this).attr('class');
+                
+                if( $name == 'all' ) {
+                    $item.stop().fadeIn();
+                } else {
+                    jQuery.each($item, function(i,obj) {        
+                        if( $name != $(this).attr('class') ) {
+                            $(this).stop().slideUp();
+                        } else {
+                            $(this).stop().slideDown();
+                        }
+                    })
+                }
+            });        
+       
+        })
+    </script>
+</head>
+<body>
+<div class="link">
+    <a href="javascript:void(0);" class="all">ALL</a>
+    <a href="javascript:void(0);" class="a">MENU A</a>
+    <a href="javascript:void(0);" class="b">MENU B</a>
+    <a href="javascript:void(0);" class="c">MENU C</a>
+    <a href="javascript:void(0);" class="d">MENU D</a>
+    <a href="javascript:void(0);" class="e">MENU E</a>
+</div>
+
+<ul class="wrap">
+    <li class="a">LIST A</li>
+    <li class="a">LIST A</li>
+    <li class="a">LIST A</li>
+    <li class="a">LIST A</li>
+    <li class="a">LIST A</li>
+    <li class="a">LIST A</li>
+    <li class="a">LIST A</li>
+    
+    <li class="b">LIST B</li>
+    <li class="b">LIST B</li>
+    <li class="b">LIST B</li>
+    <li class="b">LIST B</li>
+    <li class="b">LIST B</li>
+    
+    <li class="c">LIST C</li>
+    <li class="c">LIST C</li>
+    <li class="c">LIST C</li>
+    <li class="c">LIST C</li>
+    <li class="c">LIST C</li>
+    
+    <li class="d">LIST D</li>
+    <li class="d">LIST D</li>
+    <li class="d">LIST D</li>
+    <li class="d">LIST D</li>
+    
+    <li class="e">LIST E</li>
+    <li class="e">LIST E</li>
+    <li class="e">LIST E</li>
+    <li class="e">LIST E</li>
+</ul>
+
+</body>
+</html>

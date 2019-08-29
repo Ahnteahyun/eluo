@@ -1,0 +1,1528 @@
+@charset "utf-8";
+
+.pageHeader {
+    height:900px;
+    background-image:url('../images/bg_main_5.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.pageHeader .inner {
+    max-width:1200px;
+    outline:1px solid red;
+    margin:0 auto;
+}
+
+.pageHeader nav li:before {
+    content:'slash'
+}
+
+.btnHam {
+    position: fixed;
+    top:50px;
+    right:200px;
+    z-index:9998;  
+    width:68px;
+    height:77px;
+    background-image:url('../images/btn_ham.png');
+    background-repeat:no-repeat;
+    background-position:center center; 
+}
+
+.btnHam.open {
+    right:450px;
+    background-image:url('../images/icon_total_menu_x.png');
+}
+
+.gnb span{ 
+    position: absolute;
+    top:-10000em;
+    left:-100000em;
+}
+.gnb{
+    width:400px;
+    height: 100%;
+    background: #3f2f2a;
+    position: fixed;
+    right:-420px;
+    top:0;
+    padding-left:88px;
+    padding-top:62px;
+    box-sizing: border-box;
+    z-index:9999;
+}
+
+.gnb.on {
+    right:-400px;
+    top:0px;
+}
+
+.gnb  a {
+    height: 40px;
+    display:block;  
+    background-image: url("../images/gnb_off.png");  
+    background-repeat: no-repeat;  
+}
+.gnb ul{
+    position:relative;
+}
+
+.gnb a:hover {
+    background-image:url('../images/gnb_on.png');  
+}
+
+.gnb .a li:nth-child(2) a {
+    background-position:0 -46px;
+}
+
+.gnb .a li:nth-child(3) a {
+    background-position:0 -92px;
+}
+.gnb .a li:nth-child(4) a {
+    background-position:0 -138px;
+}
+.gnb .a li:nth-child(5) a {
+    background-position:0 -184px;
+}   
+.gnb .b{
+    margin:75px 0;
+}
+.gnb a:hover {
+    background-image:url('../images/gnb_on.png');  
+}
+.gnb .b a,
+.gnb .c a{
+    height: 30px;
+}
+.gnb .b li:nth-child(1) a {
+    background-position:0 -250px;
+}
+
+.gnb .b li:nth-child(2) a {
+    background-position:0 -280px;
+}
+.gnb .b li:nth-child(3) a {
+    background-position:0 -310px;
+}           
+.gnb .b li:nth-child(4) a {
+    background-position:0 -340px;
+}
+.gnb .c li:nth-child(1) a {
+    background-position:0 -435px;
+}
+.gnb .c li:nth-child(2) a {
+    background-position:0 -465px;
+}
+.gnb ul:before{
+    content:"";
+    width:26px;
+    height: 2px;
+    background: #ddd;   
+    position: absolute;
+    top:-20px;
+    left:0;
+    display: block;     
+}
+.gnbBg{
+    position: fixed;
+    width:100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+    left:0;
+    top:0;      
+    z-index: 9997;
+    display:none;
+}
+
+.sec02 {
+    width:1200px;
+    margin:0 auto;
+    padding:100px 0;
+}
+
+.sec02 header {
+    float:left;
+    width:320px;
+}
+
+.sec02 .box {
+    float:right;
+    width:877px;
+}
+
+.sec02 dl {
+    float:left;
+    width:265px;
+}
+
+.sec02 dl:first-child {
+    margin-right:41px;
+}
+.sec02 dl:first-child dt:after{
+    content:"event";
+}
+.sec02 dl:last-child {
+    float:right;
+}
+.sec02 dt{
+    border-top:1px solid;
+    border-bottom:2px solid;
+    padding:20px 0 50px;
+    margin:0 0 50px ;
+    position: relative;
+}
+.sec02 dt:after{
+    content: "people";
+    position: absolute;
+    width:80px;
+    height: 80px;
+    background-color: #ef2626;
+    color:#453535;
+    border-radius: 50%;
+    bottom:-40px;
+    left:calc(50% - 40px);
+    text-align: center;
+    line-height: 80px;
+}
+.sec02 dd:nth-child(2) {
+    height: 150px;
+}
+.sec02 dd:last-child{
+    border-top:1px solid #ddd;
+}
+.PARADISE{
+    height: 600px;
+    background-image: url("../images/visual_2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.PARADISE_box{
+    width:1000px;
+    padding-top:150px;
+    margin:0 auto;
+    color:white;
+}
+.PARADISE_box h3{
+    padding-right:150px;
+    padding-top:100px;
+    float:left;
+}
+.PARADISE_box .left{
+    width:350px;
+    float: left;
+}
+.PARADISE_box .left p{
+    margin-bottom:30px;
+}
+.PARADISE_box dt{
+    font-size: 45px;
+}
+.PARADISE_box dd{
+    font-size: 14px;
+}
+.PARADISE_box dd:nth-child(2){
+    margin:15px 0;
+}
+.PARADISE_box dd:last-child{
+    width:70px;
+    height: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color:black;
+    background: rgba(255,255,255,0.5);
+}
+.Eluo{
+    width:100%;
+    height: 527px;
+}
+.center{
+    width:1200px;
+    height: 347px;
+    text-align: center;
+    margin:auto;
+}
+.Eluo .center h4{
+    font-size: 55px;
+    font-weight: 100;
+    margin:70px 0 40px;
+}
+.center p{
+    font-size:11px;
+}
+.center ul{
+    margin:30px 0 60px;
+}
+.center ul li{
+    float:left;
+    list-style: none;
+    width:calc((100% / 5) - 6px);
+    border-left:1px solid;
+    text-align: center;
+    height: 155px;
+}
+.center ul li:last-child{
+    border-right: 1px solid;
+}
+.sec03{
+    width:100%;
+    background-color: #342828;
+}
+.sec03 .inner{
+    width:1200px;
+    height: 574px;
+    margin:0 auto;
+    color:#666666;
+}
+.sec03 .inner b{
+    font-size: 25px;  
+    padding:160px 0 20px;  
+}
+/* sub1.html */
+
+
+.subHeader{    
+    height:870px;
+    background:url("../images/tmp_overview_v2.jpg") center center/cover;
+    /* 
+    background-size속성은 CSS3속성에서추가된 것으로 BACKGROUND 축약형에서는 반드시POSITION뒤에 슬러시를 붙이고 써야한다. */
+}
+.subHeader .inner{
+    max-width:1200px;
+    width:98%;
+    min-width:900px;
+    margin: 0 auto; 
+}
+.subHeader .inner h1{
+    padding:40px 0 12px;
+    box-sizing: border-box; 
+}
+.subHeader h1 img{
+    width:147px;
+    height:54px;
+}
+.subHeader h2 img{
+    float:left;
+}
+.subHeader nav ul{
+    float: right;
+    font-size: 16px;
+    color:#E1E0E0;  
+    padding-top:30px;
+}
+.subHeader nav li{
+    float: left;
+    margin:0 6px;   
+}
+.subHeader nav li:first-child{
+    color:yellow;           
+}
+.subHeader nav li:after{
+    content:"/";
+}
+.subHeader .meet{
+    padding:172px 0 92px;
+}
+.subHeader .meet h3{
+    margin-left:540px;      
+}
+.subHeader .meet p{
+    color:#E1E0E0;
+    font-size: 14px;   
+    margin:-9px 0 0 789px; 
+}
+.subWrap {
+    width:100%;
+}
+.subWrap .sec1{
+    width:1100px;
+    margin:auto;
+    padding:70px 0 110px;
+}
+.subWrap .sec1 h4{
+    padding:0 0 58px;
+}
+.subWrap .sec1 h5{
+    padding:0 0 30px;
+}
+.subWrap .write_left{
+    float:left;
+}
+.subWrap .write_left p{
+    font-size: 16px;
+    line-height: 28px;
+    color:#3b2018;
+    text-decoration: underline;
+}
+.subWrap .write_right{
+    font-size: 14px;
+    float: right;
+}
+.subWrap .write_right p{
+    padding: 0 0 42px;
+}
+.subWrap strong{
+    font-size: 18px;
+    color:#DBB73B;
+}
+/* sub_2 */
+.subHeader2{    
+    height:870px;
+    background:url("../images/tmp_ceomessage_v2.jpg") center center/cover;
+    /* 
+    background-size속성은 CSS3속성에서추가된 것으로 BACKGROUND 축약형에서는 반드시POSITION뒤에 슬러시를 붙이고 써야한다. */
+}
+.subHeader2 .inner{
+    max-width:1200px;
+    width:98%;
+    min-width:900px;
+    margin: 0 auto; 
+}
+.subHeader2 .inner h1{
+    padding:40px 0 12px;
+    box-sizing: border-box; 
+}
+.subHeader2 h1 img{
+    width:147px;
+    height:54px;
+}
+.subHeader2 h2 img{
+    float:left;
+}
+.subHeader2 nav ul{
+    float: right;
+    font-size: 16px;
+    color:#E1E0E0;  
+    padding-top:30px;
+}
+.subHeader2 nav li{
+    float: left;
+    margin:0 6px;   
+}
+.subHeader2 nav li:nth-child(2){
+    color:yellow;           
+}
+.subHeader2 nav li:after{
+    content:"/";
+}
+.subHeader2 .meet{
+    padding:172px 0 92px;
+}
+.subHeader2 .meet h3{
+    margin-left:540px;      
+}
+.subHeader2 .meet p{
+    color:#E1E0E0;
+    font-size: 14px;   
+    margin:-9px 0 0 789px; 
+}
+.subWrap2{
+    width:100%;
+}
+.subWrap2 .sec1{
+    width:1100px;
+    margin:auto;
+    padding:70px 0 110px;
+}
+.subWrap2 .sec1 h4{
+    padding:0 0 58px;
+}
+.subWrap2 .sec1 h5{
+    padding:0 0 30px;
+}
+.subWrap2 .write_left{
+    float:left;
+}
+.subWrap2 .write_left p{
+    font-size: 16px;
+    line-height: 28px;
+    color:#3b2018;
+    text-decoration: underline;
+}
+.subWrap2 .write_right{
+    font-size: 14px;
+    float: right;
+}
+.subWrap2 .write_right p{
+    padding: 0 0 42px;
+}
+/* sub_3 */
+.subHeader3{    
+    height:870px;
+    background:url("../images/tmp_vision_v2.jpg") center center/cover;
+    /* 
+    background-size속성은 CSS3속성에서추가된 것으로 BACKGROUND 축약형에서는 반드시POSITION뒤에 슬러시를 붙이고 써야한다. */    
+}
+.subHeader3 .inner{
+    max-width:1200px;
+    width:98%;
+    min-width:900px;
+    margin: 0 auto; 
+}
+.subHeader3 .inner h1{
+    padding:40px 0 12px;
+    box-sizing: border-box; 
+}
+.subHeader3 h1 img{
+    width:147px;
+    height:54px;
+}
+.subHeader3 h2 img{
+    float:left;
+}
+.subHeader3 nav ul{
+    float: right;
+    font-size: 16px;
+    color:#E1E0E0;  
+    padding-top:30px;
+}
+.subHeader3 nav li{
+    float: left;
+    margin:0 6px;   
+}
+.subHeader3 nav li:nth-child(3){
+    color:yellow;           
+}
+.subHeader3 nav li:after{
+    content:"/";
+}
+.subHeader3 .meet{
+    padding:172px 0 92px;
+}
+.subHeader3 .meet h3{
+    margin-left:540px;      
+}
+.subHeader3 .meet p{
+    color:#E1E0E0;
+    font-size: 14px;   
+    margin:30px 0 0 789px; 
+}
+.subWrap3{
+    width:100%;
+}
+.subWrap3 .sec1{
+    width:1100px;
+    margin:auto;
+    padding:70px 0 110px;
+}
+.subWrap3 .sec1 h4{
+    padding:0 0 58px;
+}
+.subWrap3 .sec1 h5{
+    padding:0 0 30px;
+}
+.subWrap3 .write_left{
+    float:left;
+}
+.subWrap3 .write_left p{
+    font-size: 16px;
+    line-height: 28px;
+    color:#3b2018;
+    text-decoration: underline;
+    font-family : Montserrat,'Dotum',sans-serif;
+}
+.subWrap3 .write_right{
+    margin-left:100px;
+    float:left;
+    font-family : Montserrat,'Dotum',sans-serif;
+    font-size:14px;
+}
+.subWrap3 .write_right .eluo{
+    font-size: 24px;
+    margin-left:24px;
+    padding:50px 0 56px;
+}
+.subWrap3 .write_right .outer{
+    margin-left:24px;
+    padding:20px 0 124px;
+    background: url("../images/bg_vision_core.gif") no-repeat right 70px ;
+}
+.subWrap3 .write_right .outer .inner{
+    width:600px;
+    padding:60px 0 27px;
+}
+.subWrap3 .write_right .outer .inner li{
+    line-height: 25px;
+}
+.subWrap3 .write_right .outer .inner li:nth-of-type(odd){
+    text-decoration: underline;
+}
+.subWrap3 .write_right .outer2{
+    margin-left:24px;
+    padding:20px 0 50px;
+}
+.subWrap3 .write_right .outer2 ol{
+    background: url("../images/bg_vision_value.gif") no-repeat right center;
+    padding:30px 0 50px;
+    line-height: 40px;
+}
+.subWrap3 .write_right .soft{
+    font-size: 24px;
+    margin-left:24px;
+    padding:26px 0 137px;
+    color:#666666;
+}
+/*.sub_4*/
+.subHeader4{    
+    height:870px;
+    background:url("../images/tmp_service_v2.jpg") center center/cover;
+    /* 
+    background-size속성은 CSS3속성에서추가된 것으로 BACKGROUND 축약형에서는 반드시POSITION뒤에 슬러시를 붙이고 써야한다. */    
+}
+.subHeader4 .inner{
+    max-width:1200px;
+    width:98%;
+    min-width:900px;
+    margin: 0 auto; 
+}
+.subHeader4 .inner h1{
+    padding:40px 0 12px;
+    box-sizing: border-box; 
+}
+.subHeader4 h1 img{
+    width:147px;
+    height:54px;
+}
+.subHeader4 h2 img{
+    float:left;
+}
+.subHeader4 nav ul{
+    float: right;
+    font-size: 16px;
+    color:#E1E0E0;  
+    padding-top:30px;
+}
+.subHeader4 nav li{
+    float: left;
+    margin:0 6px;   
+}
+.subHeader4 nav li:nth-child(4){
+    color:yellow;           
+}
+.subHeader4 nav li:after{
+    content:"/";
+}
+.subHeader4 .meet{
+    padding:172px 0 92px;
+}
+.subHeader4 .meet h3{
+    margin-left:540px;      
+}
+.subHeader4 .meet p{
+    color:#E1E0E0;
+    font-size: 14px;   
+    margin:20px 0 0 789px; 
+}
+.sec2_outer{
+    width:100%;
+}
+.sec2{
+    padding:70px 0 110px;
+    color:#666666;
+    font-size: 14px;
+    width:1100px;
+    margin:0 auto;
+    font-family: Montserrat,'Dotum',sans-serif;
+}
+.sec2 h4{
+    margin-bottom: 58px;
+    
+}
+.sec2 .art1 p{
+    font-size: 18px;
+    color:#3B2018;
+    text-decoration: underline;
+    margin-top:20px;
+    line-height: 28px;
+}
+.sec2 .art1{
+    background: url("../images/bg_service_cir.gif") no-repeat right 10px;
+    height:338px;
+}
+.sec2 .art2 h6{
+    margin-bottom:20px;
+}
+.sec2 .art2 b{
+    font-size: 16px;
+    padding-bottom:20px;
+    color:#2a2a2a;
+    display: block;
+}
+.art2 dl{
+    float:left;
+    margin:50px 8px 50px 0;
+    border-bottom:1px solid #666666;
+}
+.art2 dl dt,
+.art2 dl{
+    border-bottom:1px solid #666666;
+}
+.art2 dl dd{
+    text-align: center;
+    padding:30px 0;
+    box-sizing: border-box;
+    font-size: 13px;
+    height: 136px;
+    line-height: 22px;
+}
+.art2 dl:last-child{
+    margin-right:0;
+}
+.sec2 .art2 .first dt:first-child{
+    background: url("../images/bg_service_1.gif") no-repeat 93px;
+    height:132px;
+    width:262px;
+}
+.sec2 .art2 .type2 dt:first-child{
+    background: url("../images/bg_service_1.gif") no-repeat -186px;
+    height:132px;
+    width:262px;
+}
+.sec2 .art2 .type3 dt:first-child{
+    background: url("../images/bg_service_1.gif") no-repeat -465px;
+    height:132px;
+    width:262px;
+}
+.sec2 .art2 .type4 dt:first-child{
+    background: url("../images/bg_service_1.gif") no-repeat -744px;
+    height:132px;
+    width:262px;
+}
+.art3 h6{
+    padding-bottom:17px;
+}
+.art3 b{
+    font-size:16px;
+    padding-bottom:15px;
+    display:block;
+    padding-bottom:15px;
+}
+.art3 p{
+    line-height: 25px;
+    font-size: 14px;
+}
+.art3 .it_bottom{
+    padding:75px 0 80px;
+    color:#666666;
+    font-size:14px;
+    margin:0 240px;
+}
+.art3 .it_bottom dl{
+    padding-top:5px;
+    float:left;
+}
+.art3 .it_bottom dd{
+    text-align: center;
+}
+.art3 .it_bottom dl:nth-child(1) dt{
+    width:185px;
+    height: 220px;
+    background: url("../images/bg_service_2.gif") no-repeat 0 0;
+}
+.art3 .it_bottom dl:nth-child(2) dt{
+    width:185px;
+    height: 220px;
+    background: url("../images/bg_service_2.gif") no-repeat -215px 0;
+    margin:0 10px;
+}
+.art3 .it_bottom dl:nth-child(3) dt{
+    width:185px;
+    height: 220px;
+    background: url("../images/bg_service_2.gif") no-repeat -430px 0;
+}
+.art4 h6{
+    margin-bottom:16px;
+}
+.art4 b{
+    font-size: 16px;
+    padding-bottom:15px;
+    display: block;
+}
+.art4 p{
+    font-size: 15px;
+}
+.art4 .circle{
+    background: url("../images/bg_service_3.gif") no-repeat;
+    width:958px;
+    height: 475px;
+    margin:75px 71px 80px;
+    box-sizing: border-box;
+}
+.art5 h6{
+    margin-bottom:16px;
+}
+.art5 b{
+    font-size: 16px;
+    padding-bottom:15px;
+    display: block;
+}
+.art5 p{
+    font-size: 15px;
+    line-height: 25px;
+}
+.boxes{
+    margin:75px 129px 80px;
+}
+.boxes dl{
+    float:left;
+}
+.boxes dl dt{
+    width:280px;
+    height: 67px;
+    font-size:20px;
+    text-align: center;
+    border:1px solid #666666;
+    box-sizing: border-box;
+    line-height: 67px;
+}
+.boxes dl:first-child dt{
+    border-right: none;
+}
+.boxes dl:last-child dt{
+  border-left: none;
+}
+.boxes dl dd{
+    text-align: center;
+    padding:153px 0 40px;
+    height: 226px;
+    box-sizing: border-box;
+}
+.boxes dl:nth-child(2) dt{
+   border:1px solid #fba81a;
+}
+.boxes dl:nth-child(1) dd{
+    border-left:1px solid #666666;
+    border-bottom:1px solid #666666;
+    background: url("../images/bg_service_4.gif") no-repeat 80px -36px;
+}
+.boxes dl:nth-child(2) dd{
+    border-left:1px solid #fba81a;
+    border-right:1px solid #fba81a;
+    border-bottom:1px solid #fba81a;
+    background: url("../images/bg_service_4.gif") no-repeat -200px -36px;
+}
+.boxes dl:nth-child(3) dd{
+    border-right:1px solid #666666;
+    border-bottom:1px solid #666666;
+    background: url("../images/bg_service_4.gif") no-repeat -480px -36px;
+}
+/* sec5 */
+
+.subHeader5{    
+    height:870px;
+    background:url("../images/tmp_careers.jpg") center center/cover;
+    /* 
+    background-size속성은 CSS3속성에서추가된 것으로 BACKGROUND 축약형에서는 반드시POSITION뒤에 슬러시를 붙이고 써야한다. */    
+}
+.subHeader5 .inner{
+    max-width:1200px;
+    width:98%;
+    min-width:900px;
+    margin: 0 auto; 
+}
+.subHeader5 .inner h1{
+    padding:40px 0 12px;
+    box-sizing: border-box; 
+}
+.subHeader5 h1 img{
+    width:147px;
+    height:54px;
+}
+.subHeader5 h2 img{
+    float:left;
+}
+.subHeader5 nav ul{
+    float: right;
+    font-size: 16px;
+    color:#E1E0E0;  
+    padding-top:30px;
+}
+.subHeader5 nav li{
+    float: left;
+    margin:0 6px;   
+}
+.subHeader5 nav li:nth-child(5){
+    color:yellow;           
+}
+.subHeader5 nav li:after{
+    content:"/";
+}
+.subHeader5 .meet{
+    padding:172px 0 92px;
+}
+.subHeader5 .meet h3{
+    margin-left:540px;      
+}
+.subHeader5 .meet p{
+    color:#E1E0E0;
+    font-size: 14px;   
+    margin:20px 0 0 789px; 
+    line-height: 25px;
+}
+.sec3_outer{
+    width:100%;
+}
+.sec3{
+    padding:70px 0 110px;
+    color:#666666;
+    font-size: 14px;
+    width:1100px;
+    margin:0 auto;
+    font-family: Montserrat,'Dotum',sans-serif;
+}
+.sec3 h4{
+    margin-bottom: 58px;
+    
+}
+.sec3 .art2_left p{
+    font-size: 18px;
+    color:#3B2018;
+    text-decoration: underline;
+    margin:20px 0 44px;
+    line-height: 28px;
+
+}
+.sec3 .art2_left{
+    float:left;
+}
+.sec3 .art2_right{
+    float:left;
+    margin-left:100px;
+}
+.sec3 .art2_right .right1 h5{
+    margin-bottom:20px;
+}
+.sec3 .art2_right .right1 p{
+    line-height: 25px;
+    padding-bottom:40px;
+}
+.sec3 .art2_right .right1 b img{
+    margin-bottom:100px;
+}
+.sec3 .art2_right .right2,
+.sec3 .art2_right .right3{
+    margin-bottom: 100px;
+}
+.sec3 .art2_right .right2 h5{
+    margin-bottom:20px;
+}
+.sec3 .art2_right .right2 .right2_left{
+    float:left;
+}
+.sec3 .art2_right .right2 .right2_right{
+    float:left;
+    color:#666666;
+    margin-left:40px;
+    padding-bottom:42px;
+    line-height: 25px;
+}
+.sec3 .art2_right .right3 h5{
+    margin-bottom:20px;
+}
+.sec3 .art2_right .right3 .right3_left{
+    float:left;
+    color:#666666;
+    margin-right:40px;
+    padding-bottom:42px;
+    line-height: 25px;
+
+}
+.sec3 .art2_right .right3 .right3_right{
+    float:left;
+}
+.sec3 .art2_right .right4 .clearfix{
+    width:705px;
+}
+.sec3 .art2_right .right4 .clearfix > li{
+    width:265px;
+    height: 147px;
+    float:left;
+    font-size: 14px;
+    font-family: Montserrat,'Dotum',sans-serif;
+}
+.sec3 .art2_right .right4 .clearfix > li:nth-child(3n){
+    width:175px;
+}
+.sec3 .art2_right .right4 .clearfix > li img{
+    margin-bottom: 10px;
+}
+.sec3 .art2_right .right5{
+    width:700px;
+}
+.sec3 .art2_right .right5 p{
+    line-height: 22px;
+    margin:50px 0; 
+}
+.sec3 .art2_right .right5 dl{
+    width:340px;
+    height: 185px;
+    float:left;
+    border :none;
+    text-align: left;
+    margin:0;
+    padding-bottom:20px;
+    background: url("../images/bullet_square05.gif") no-repeat 0 5px;
+
+}
+.sec3 .art2_right .right5 dt{
+    border: none;
+    font-size:16px;
+    padding-left:10px;
+    }
+.sec3 .art2_right .right5 dd{
+    text-align: left;
+    line-height: 25px;
+}
+.finish1{
+    width:100%;
+    font-size:14px;
+    padding-top:54px;
+    background-color: #f0f0f0;
+}
+.finish1 .outer{
+    width:1100px;
+    padding:70px 0 110px; 
+    margin:0 auto;
+}
+.finish1 .inner{
+    padding-top:52px;
+    margin-left:60px;
+}
+.finish1 .inner h6{
+    padding-bottom:80px;
+}
+.finish1 .inner b{
+    font-size:20px;
+    text-align: center;
+    display: block;
+}
+.finish1 .inner p{
+    padding:10px 0 25px;
+    font-size:14px;
+    text-align: center;
+    display: block;
+}
+.finish1 .inner .s_box{
+    width:100%;
+    background-color: #fff;
+    border-top:1px solid #b3b3b3;
+}
+.finish1 .inner .s_box a:first-child img{
+    padding:10px 25px 10px 334px;
+}
+.finish1 .inner .s_box a:last-child img{
+    border-left:1px solid #d6d6d6;
+    padding:10px 0 10px 25px;
+}
+/* sub 6*/
+.subHeader6{    
+    height:870px;
+    background:url("../images/tmp_award.jpg") center center/cover;
+    /* 
+    background-size속성은 CSS3속성에서추가된 것으로 BACKGROUND 축약형에서는 반드시POSITION뒤에 슬러시를 붙이고 써야한다. */    
+}
+.subHeader6 .inner{
+    max-width:1200px;
+    width:98%;
+    min-width:900px;
+    margin: 0 auto; 
+}
+.subHeader6 .inner h1{
+    padding:40px 0 12px;
+    box-sizing: border-box; 
+}
+.subHeader6 h1 img{
+    width:147px;
+    height:64px;
+}
+.subHeader6 h2 img{
+    float:left;
+}
+.subHeader6 nav ul{
+    float: right;
+    font-size: 16px;
+    color:#E1E0E0;  
+    padding-top:30px;
+}
+.subHeader6 nav li{
+    float: left;
+    margin:0 6px;   
+}
+.subHeader6 nav li:nth-child(6){
+    color:yellow;           
+}
+.subHeader6 nav li:after{
+    content:"/";
+}
+.subHeader6 .meet{
+    padding:172px 0 92px;
+}
+.subHeader6 .meet h3{
+    margin-left:540px;      
+}
+.subHeader6 .meet p{
+    color:#E1E0E0;
+    font-size: 14px;   
+    margin:20px 0 0 789px; 
+    line-height: 25px;
+}
+.sec4_outer {
+    width:100%;
+}
+.sec4_outer .sec4{
+    width:1100px;
+    margin:0 auto;
+    padding:70px 0 110px;
+}
+.sec4_outer .sec4 h4{
+    padding-bottom:58px;
+}
+.sec4_outer .sec4 .left{
+    float:left;
+    width:266px;
+}
+.sec4_outer .sec4 h5{
+    font-size: 32px;
+    padding: 48px 0 36px;
+}
+.sec4_outer .sec4 dl{
+    margin-bottom: 30px;
+    color: #555555;
+}
+.sec4_outer .sec4 dt{
+    font-size: 14px;
+    padding-bottom: 30px;
+}
+.sec4_outer .sec4 dd{
+    font-size: 12px;
+}
+.sec4_outer .sec4 .middle{
+    float:left;
+    width:266px;
+    height: 4674px;
+    margin:0 75px;
+    padding:0 75px;
+    border-left:1px solid #ececec;
+    border-right:1px solid #ececec;
+}
+.sec4_outer .sec4 .bottom{
+    padding-bottom:70px;
+}
+.sec4_outer .sec4 .right{
+    float:left;
+    width:266px;
+}
+/* Eluocian_sub_1 공동*/
+.Eluocian_head1{
+    width:100%;
+}
+.Eluocian_head1 h1{
+    width:1200px;
+    margin:0 auto;
+    padding:40px 0 14px;
+}
+.Eluocian_head1 nav{
+    width:1200px;
+    margin: 0 auto;
+}
+.Eluocian_head1 nav .Eluocian_left{
+    float:left;
+}
+.Eluocian_head1 nav .Eluocian_right{
+    float:right;
+}
+.Eluocian_head1 nav .Eluocian_right ul{
+    padding-top:40px;
+}
+.Eluocian_head1 nav .Eluocian_right ul li:first-child{
+    color:#BBA038;
+}
+.Eluocian_head1 nav .Eluocian_right ul li{
+    float:left;
+    font-size: 16px;
+    margin: 0 6px;
+    color:#555555;
+}
+.Eluocian_sec{
+    margin:0 auto;
+    width:1200px;
+    padding:27px 0 27px 130px;
+}
+.Eluocian_sec_con{
+    padding:70px 0 110px;
+}
+.Eluocian_sec:nth-child(5n-4):hover{
+    background-color: #fde910;
+    transition: all 0.5s;
+}
+.Eluocian_sec:nth-child(5n-3):hover{
+    background-color: #ffb301;
+    transition: all 0.5s;
+}
+.Eluocian_sec:nth-child(5n-2):hover{
+    background-color: #fa7b00;
+    transition: all 0.5s;
+}
+.Eluocian_sec:nth-child(5n-1):hover{
+    background-color: #d17e00;
+    transition: all 0.5s;
+}
+.Eluocian_sec:nth-child(5n):hover{
+    background-color: #610401;
+    transition: all 0.5s;
+}
+.Eluocian_sec:hover b,
+.Eluocian_sec:hover p,
+.Eluocian_sec:hover .E_sec_right b,
+.Eluocian_sec:hover .E_sec_right p,
+.Eluocian_sec:hover .E_sec_right strong{
+    color:white;
+}
+.Eluocian_sec .E_sec_left{
+    width:200px;
+    height: 100px;
+    padding-top:15px;
+    margin-right:33px;
+    border-top:1px solid #ffd201;
+    float:left;
+    color:#ffd201;
+}
+.Eluocian_sec .E_sec_right{
+    float:left;
+    width:767px;
+}
+.Eluocian_sec .E_sec_left b{
+    font-size: 44px;
+    float:left;
+}
+.Eluocian_sec .E_sec_left p{
+    font-size: 16px;
+    float:right;
+}
+.Eluocian_sec .E_sec_right b{
+    font-size: 33px;
+}
+.Eluocian_sec .E_sec_right p{
+    font-size: 21px;
+    margin:15px 0 10px;
+    color:#666666;
+}
+.Eluocian_sec .E_sec_right strong{
+    font-size: 14px;
+    color:#b9b9b9;
+}
+/*Eluocian_sub_2*/
+.Eluocian_head2{
+    width:100%;
+}
+.Eluocian_head2 h1{
+    width:1200px;
+    margin:0 auto;
+    padding:40px 0 14px;
+}
+.Eluocian_head2 nav{
+    width:1200px;
+    margin: 0 auto;
+}
+.Eluocian_head2 nav .Eluocian_left{
+    float:left;
+}
+.Eluocian_head2 nav .Eluocian_right{
+    float:right;
+}
+.Eluocian_head2 nav .Eluocian_right ul{
+    padding-top:40px;
+}
+.Eluocian_head2 nav .Eluocian_right ul li:nth-child(2){
+    color:#BBA038;
+}
+.Eluocian_head2 nav .Eluocian_right ul li{
+    float:left;
+    font-size: 16px;
+    margin: 0 6px;
+    color:#555555;
+}
+/*Eluocian_sub_3*/
+.Eluocian_head3{
+    width:100%;
+}
+.Eluocian_head3 h1{
+    width:1200px;
+    margin:0 auto;
+    padding:40px 0 14px;
+}
+.Eluocian_head3 nav{
+    width:1200px;
+    margin: 0 auto;
+}
+.Eluocian_head3 nav .Eluocian_left{
+    float:left;
+}
+.Eluocian_head3 nav .Eluocian_right{
+    float:right;
+}
+.Eluocian_head3 nav .Eluocian_right ul{
+    padding-top:40px;
+}
+.Eluocian_head3 nav .Eluocian_right ul li:nth-child(3){
+    color:#BBA038;
+}
+.Eluocian_head3 nav .Eluocian_right ul li{
+    float:left;
+    font-size: 16px;
+    margin: 0 6px;
+    color:#555555;
+}
+/*Eluocian_sub_4*/
+.Eluocian_head4{
+    width:100%;
+}
+.Eluocian_head4 h1{
+    width:1200px;
+    margin:0 auto;
+    padding:40px 0 14px;
+}
+.Eluocian_head4 nav{
+    width:1200px;
+    margin: 0 auto;
+}
+.Eluocian_head4 nav .Eluocian_left{
+    float:left;
+}
+.Eluocian_head4 nav .Eluocian_right{
+    float:right;
+}
+.Eluocian_head4 nav .Eluocian_right ul{
+    padding-top:40px;
+}
+.Eluocian_head4 nav .Eluocian_right ul li:nth-child(4){
+    color:#BBA038;
+}
+.Eluocian_head4 nav .Eluocian_right ul li{
+    float:left;
+    font-size: 16px;
+    margin: 0 6px;
+    color:#555555;
+}
+/*think_sub1 공통*/
+.think_head1{
+    width:100%;
+}
+.think_head1 h1{
+    width:1200px;
+    margin:0 auto;
+    padding:40px 0 14px;
+}
+.think_head1 nav{
+    width:1200px;
+    margin: 0 auto;
+}
+.think_head1 nav .think_left{
+    float:left;
+}
+.think_head1 nav .think_right{
+    float:right;
+}
+.think_head1 nav .think_right ul{
+    padding-top:40px;
+}
+.think_head1 nav .think_right ul li:first-child{
+    color:#BBA038;
+}
+.think_head1 nav .think_right ul li{
+    float:left;
+    font-size: 16px;
+    margin: 0 6px;
+    color:#555555;
+}
+.think_sec{
+    width:1200px;
+    margin:0 auto;
+    padding:27px 0 27px 130px;
+}
+.think_sec_con{
+    padding:70px 0 110px;
+}
+.think_sec:nth-child(5n-4):hover{
+    background-color: #fde910;
+    transition: all 0.5s;
+}
+.think_sec:nth-child(5n-3):hover{
+    background-color: #ffb301;
+    transition: all 0.5s;
+}
+.think_sec:nth-child(5n-2):hover{
+    background-color: #fa7b00;
+    transition: all 0.5s;
+}
+.think_sec:nth-child(5n-1):hover{
+    background-color: #d17e00;
+    transition: all 0.5s;
+}
+.think_sec:nth-child(5n):hover{
+    background-color: #610401;
+    transition: all 0.5s;
+}
+.think_sec:hover b,
+.think_sec:hover p,
+.think_sec:hover .T_sec_right b,
+.think_sec:hover .T_sec_right p,
+.think_sec:hover .T_sec_right strong{
+    color:white;
+}
+.think_sec .T_sec_left{
+    width:200px;
+    height: 100px;
+    padding-top:15px;
+    margin-right:33px;
+    border-top:1px solid #ffd201;
+    float:left;
+    color:#ffd201;
+}
+.think_sec .T_sec_right{
+    float:left;
+    width:767px;
+}
+.think_sec .T_sec_left b{
+    font-size: 44px;
+    float:left;
+}
+.think_sec .T_sec_left p{
+    font-size: 16px;
+    float:right;
+}
+.think_sec .T_sec_right b{
+    font-size: 33px;
+}
+.think_sec .T_sec_right p{
+    font-size: 21px;
+    margin:15px 0 10px;
+    color:#666666;
+}
+.think_sec .T_sec_right strong{
+    font-size: 14px;
+    color:#b9b9b9;
+}
+/*think_sub_2*/
+.think_head2{
+    width:100%;
+}
+.think_head2 h1{
+    width:1200px;
+    margin:0 auto;
+    padding:40px 0 14px;
+}
+.think_head2 nav{
+    width:1200px;
+    margin: 0 auto;
+}
+.think_head2 nav .think_left{
+    float:left;
+}
+.think_head2 nav .think_right{
+    float:right;
+}
+.think_head2 nav .think_right ul{
+    padding-top:40px;
+}
+.think_head2 nav .think_right ul li:nth-child(2){
+    color:#BBA038;
+}
+.think_head2 nav .think_right ul li{
+    float:left;
+    font-size: 16px;
+    margin: 0 6px;
+    color:#555555;
+}
+/*think_sub_3*/
+.think_head3{
+    width:100%;
+}
+.think_head3 h1{
+    width:1200px;
+    margin:0 auto;
+    padding:40px 0 14px;
+}
+.think_head3 nav{
+    width:1200px;
+    margin: 0 auto;
+}
+.think_head3 nav .think_left{
+    float:left;
+}
+.think_head3 nav .think_right{
+    float:right;
+}
+.think_head3 nav .think_right ul{
+    padding-top:40px;
+}
+.think_head3 nav .think_right ul li:nth-child(3){
+    color:#BBA038;
+}
+.think_head3 nav .think_right ul li{
+    float:left;
+    font-size: 16px;
+    margin: 0 6px;
+    color:#555555;
+}
+/*think_sub_4*/
+.think_head4{
+    width:100%;
+}
+.think_head4 h1{
+    width:1200px;
+    margin:0 auto;
+    padding:40px 0 14px;
+}
+.think_head4 nav{
+    width:1200px;
+    margin: 0 auto;
+}
+.think_head4 nav .think_left{
+    float:left;
+}
+.think_head4 nav .think_right{
+    float:right;
+}
+.think_head4 nav .think_right ul{
+    padding-top:40px;
+}
+.think_head4 nav .think_right ul li:nth-child(4){
+    color:#BBA038;
+}
+.think_head4 nav .think_right ul li{
+    float:left;
+    font-size: 16px;
+    margin: 0 6px;
+    color:#555555;
+}
+/*think_sub_5*/
+.think_head5{
+    width:100%;
+}
+.think_head5 h1{
+    width:1200px;
+    margin:0 auto;
+    padding:40px 0 14px;
+}
+.think_head5 nav{
+    width:1200px;
+    margin: 0 auto;
+}
+.think_head5 nav .think_left{
+    float:left;
+}
+.think_head5 nav .think_right{
+    float:right;
+}
+.think_head5 nav .think_right ul{
+    padding-top:40px;
+}
+.think_head5 nav .think_right ul li:nth-child(5){
+    color:#BBA038;
+}
+.think_head5 nav .think_right ul li{
+    float:left;
+    font-size: 16px;
+    margin: 0 6px;
+    color:#555555;
+}
